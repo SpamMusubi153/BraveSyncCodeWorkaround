@@ -1,3 +1,5 @@
+from browser import document
+
 import datetime
 
 origin_date = datetime.date(2022, 5, 10)
@@ -13,4 +15,4 @@ number_of_code_words = len(code_words)
 result_one = code_words[current_date_difference % number_of_code_words]
 result_two = code_words[(current_date_difference + 1) % number_of_code_words]
 
-print(result_one, result_two)
+document["result"].textContent = f"{result_one}, {result_two}"
