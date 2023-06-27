@@ -1,6 +1,5 @@
 
 # Brave Sync Code Workaround
-###### No Re-install required!
 
 In 2022, Brave Browser added a new word to all new and existing sync chains.
 
